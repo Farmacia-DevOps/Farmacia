@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="http://localhost/Farmacia/CSS/style.css">
+</head>
+<body>
+    <center>
+        <h1>¡CONTÁCTANOS!</h1>
+        <br>
+        <form action="guardar1.php" method="POST">
+        <script>src = "registro_contacto.js"</script>    
+            <h2>Formulario de Contacto</h2>
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br><br>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"> 
+            <br><br>
+            
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+            <br><br>
+            
+            <button type="submit">Enviar Mensaje</button>
+            <br><br>
+        </form>
+        <button type="button" onclick="history.back()">Atrás</button>
+
+    </center>
+
+    <script>
+
+        document.getElementById("fecha").value = new Date().toISOString().split('T')[0];
+    </script>
+</body>
+</html>

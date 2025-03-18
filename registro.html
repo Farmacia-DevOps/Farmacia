@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href= "http://localhost/Farmacia/CSS/style.css">
+    <script src="registro.js">
+
+    </script>
+</head>
+
+<center>
+    <body>
+        <h1>Registro de usuario</h1><br>
+        <form action="guardar.php" method="POST">
+                
+                <label form="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre">
+    
+                <label for="email">Correo electronico: </label>
+                <input type="email" id="email" name="email">
+    
+                <label for="fecha">Fecha: </label>
+                <input type="date" id="fecha" name="fecha"><br>
+
+                <label for="contraseña">Contraseña: </label>
+                <input type="password" id="contraseña" name="contraseña"><br>
+
+                <label for="ccontraseña">Confirmar contraseña: </label>
+                <input type="password" id="ccontraseña" name="ccontraseña"><br>
+    
+                <input type="submit" value= "Guardar"><br>
+                <p class="warnings" id="warnings"></p>
+        </form>
+        <h1><button onclick="history.back()">Atrás</button></h1>
+    </center>
+    
+    </body>
+    </html>

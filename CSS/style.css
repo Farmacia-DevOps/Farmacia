@@ -1,0 +1,202 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centra verticalmente */
+}
+
+/* Contenedor principal */
+.main-container {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+}
+
+/* Logo */
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto;
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+
+/* Descripción */
+.descripcion-farmacia {
+    margin-bottom: 30px;
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+/* Texto introductorio */
+.intro-text {
+    margin-bottom: 30px; /* Espacio entre el texto y los botones */
+    font-size: 1.2em;
+    color: #555;
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+/* Contenedor de botones */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre botones */
+    flex-wrap: wrap; /* Para que los botones se ajusten en pantallas pequeñas */
+}
+
+/* Estilos para los botones */
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para la página "Sobre Nosotros" */
+.equipo, .mision {
+    margin-bottom: 30px;
+}
+
+.equipo h2, .mision h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Estilos para la página de contacto */
+center {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para la galería de fotos */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.gallery-item img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la página principal */
+.main-container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.descripcion-farmacia {
+    margin-bottom: 30px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para la página de productos */
+.productos-grid {
+    display: flex; /* Cambia a flexbox para disposición horizontal */
+    flex-wrap: wrap; /* Permite que los productos se ajusten en varias líneas si no caben en una sola */
+    justify-content: center; /* Centra los productos horizontalmente */
+    gap: 20px; /* Espacio entre los productos */
+    padding: 20px; /* Espacio interno para el contenedor */
+}
+
+.producto {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 300px; /* Ancho máximo de cada producto */
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.precio {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+/* Estilos para el botón de regresar */
+.boton-regresar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.boton-regresar .btn {
+    background-color: #e74c3c;
+}
+
+.boton-regresar .btn:hover {
+    background-color: #c0392b;
+}
